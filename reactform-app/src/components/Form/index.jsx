@@ -30,7 +30,7 @@ const Form = ({ datas, setDatas, suratKesungguhan, errorMassage, setErrorMassage
     const validHandphone = () => {
       if (datas === "handphone") {
         if (regex.test(value)) {
-          return setErrorMassage("Email tidak sesuai");
+          return setErrorMassage("No Handphone tidak sesuai");
         }
       }
     };
