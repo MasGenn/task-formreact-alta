@@ -86,10 +86,9 @@ const Form = ({ datas, setDatas, suratKesungguhan, errorMassage, setErrorMassage
             handleInput(e.target.value);
           }}
         >
-          <option value={datas.kelas}>React Js</option>
-          <option value={datas.kelas}>Vue Js</option>
-          <option value={datas.kelas}>Next Js</option>
-          <option value={datas.kelas}>Angular</option>
+          <option value={datas.kelas}>Coding with Golang</option>
+          <option value={datas.kelas}>Coding Frontend with ReactJs</option>
+          <option value={datas.kelas}>Fullstack Developer</option>
         </select>
       </div>
 
